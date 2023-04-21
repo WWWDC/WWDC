@@ -23,5 +23,6 @@
 * [Swift](swift/README.md)
   * [Embrace Swift generics](swift/embrace-swift-generics.md)
   * [Meet async/await in Swift](swift/meet-async-await-in-swift.md)
+  * [Meet Swift Regex](swift/meet-swift-regex.md)
 * [SwiftUI & UI Frameworks](swiftui-and-ui-frameworks.md)
 * [System Services](system-services.md)
