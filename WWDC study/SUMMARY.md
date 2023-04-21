@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Accessibility & Inclusion](README.md)
+* [전체 보기](README.md)
+* [Accessibility & Inclusion](accessibility-and-inclusion.md)
 * [App Services](app-services/README.md)
   * [Meet WeatherKit](app-services/meet-weatherkit.md)
 * [Audio & Video](audio-and-video.md)
@@ -9,7 +10,8 @@
 * [Business & Education](business-and-education/README.md)
   * [What's new in Screen Time API](business-and-education/whats-new-in-screen-time-api.md)
 * [Design](design.md)
-* [Developer Tools](developer-tools.md)
+* [Developer Tools](developer-tools/README.md)
+  * [Page 1](developer-tools/page-1.md)
 * [Essentials](essentials.md)
 * [Graphics & Games](graphics-and-games.md)
 * [Health & Fitness](health-and-fitness.md)
