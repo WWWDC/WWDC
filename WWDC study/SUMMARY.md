@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Accessibility & Inclusion](README.md)
-* [App Services](app-services.md)
+* [App Services](app-services/README.md)
+  * [Meet WeatherKit](app-services/meet-weatherkit.md)
 * [Audio & Video](audio-and-video.md)
 * [App Store Distribution & Marketing](app-store-distribution-and-marketing.md)
 * [Argumented Reality](argumented-reality.md)
