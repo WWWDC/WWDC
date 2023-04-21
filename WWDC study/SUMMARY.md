@@ -19,7 +19,7 @@
 * [Privacy & Security](privacy-and-security.md)
 * [Safari & Web](safari-and-web.md)
 * [Swift](swift/README.md)
-  * [Design protocol interfaces in Swift](swift/design-protocol-interfaces-in-swift.md)
+  * [Embrace Swift generics](swift/embrace-swift-generics.md)
   * [Meet async/await in Swift](swift/meet-async-await-in-swift.md)
 * [SwiftUI & UI Frameworks](swiftui-and-ui-frameworks.md)
 * [System Services](system-services.md)
