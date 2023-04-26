@@ -19,3 +19,13 @@
 [meet-swift-regex.md](swift/meet-swift-regex.md "mention")
 
 [whats-new-in-wkwebview.md](safari-and-web/whats-new-in-wkwebview.md "mention")
+
+
+
+#### Week3
+
+[build-global-apps-localization-by-example.md](accessibility-and-inclusion/build-global-apps-localization-by-example.md "mention")
+
+[design-app-shortcuts.md](app-services/design-app-shortcuts.md "mention")
+
+[swift-concurrency-behind-the-scenes.md](swift/swift-concurrency-behind-the-scenes.md "mention")
