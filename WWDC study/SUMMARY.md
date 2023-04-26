@@ -24,6 +24,7 @@
 * [Safari & Web](safari-and-web/README.md)
   * [What's new in WKWebView](safari-and-web/whats-new-in-wkwebview.md)
 * [Swift](swift/README.md)
+  * [ARC in Swift: Basics and beyond](swift/arc-in-swift-basics-and-beyond.md)
   * [Swift concurrency: Behind the scenes](swift/swift-concurrency-behind-the-scenes.md)
   * [Embrace Swift generics](swift/embrace-swift-generics.md)
   * [Explore structured concurrency in Swift](swift/explore-structured-concurrency-in-swift.md)
