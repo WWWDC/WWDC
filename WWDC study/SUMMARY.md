@@ -22,6 +22,7 @@
 * [Safari & Web](safari-and-web/README.md)
   * [What's new in WKWebView](safari-and-web/whats-new-in-wkwebview.md)
 * [Swift](swift/README.md)
+  * [Swift concurrency: Behind the scenes](swift/swift-concurrency-behind-the-scenes.md)
   * [Embrace Swift generics](swift/embrace-swift-generics.md)
   * [Meet async/await in Swift](swift/meet-async-await-in-swift.md)
   * [Meet Swift Regex](swift/meet-swift-regex.md)
