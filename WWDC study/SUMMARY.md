@@ -1,7 +1,8 @@
 # Table of contents
 
 * [전체 보기](README.md)
-* [Accessibility & Inclusion](accessibility-and-inclusion.md)
+* [Accessibility & Inclusion](accessibility-and-inclusion/README.md)
+  * [Build global apps: Localization by example](accessibility-and-inclusion/build-global-apps-localization-by-example.md)
 * [App Services](app-services/README.md)
   * [Design App Shortcuts](app-services/design-app-shortcuts.md)
   * [Meet WeatherKit](app-services/meet-weatherkit.md)
