@@ -26,6 +26,9 @@
 
 [build-global-apps-localization-by-example.md](accessibility-and-inclusion/build-global-apps-localization-by-example.md "mention")
 
-[design-app-shortcuts.md](app-services/design-app-shortcuts.md "mention")
+[explore-structured-concurrency-in-swift.md](swift/explore-structured-concurrency-in-swift.md "mention")
 
 [swift-concurrency-behind-the-scenes.md](swift/swift-concurrency-behind-the-scenes.md "mention")
+
+[arc-in-swift-basics-and-beyond.md](swift/arc-in-swift-basics-and-beyond.md "mention")
+

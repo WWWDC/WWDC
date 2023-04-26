@@ -4,7 +4,6 @@
 * [Accessibility & Inclusion](accessibility-and-inclusion/README.md)
   * [Build global apps: Localization by example](accessibility-and-inclusion/build-global-apps-localization-by-example.md)
 * [App Services](app-services/README.md)
-  * [Design App Shortcuts](app-services/design-app-shortcuts.md)
   * [Meet WeatherKit](app-services/meet-weatherkit.md)
 * [Audio & Video](audio-and-video.md)
 * [App Store Distribution & Marketing](app-store-distribution-and-marketing.md)
