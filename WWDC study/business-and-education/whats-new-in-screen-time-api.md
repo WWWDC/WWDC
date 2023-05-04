@@ -79,7 +79,7 @@ description: 현재 문서는 iOS15 기준 WWDC 영상을 보고 정리한 글�
 
 가족 제어에 대한 승인을 요청하는 방법: **`프로젝트 설정과 패밀리 컨트롤 승인`**
 
-먼저 [Xcode의 해당 Taget에서 Capability를 추가](https://www.notion.so/TIL-eb5700b1b2f647239203cfecbc1432bc)한다.
+먼저 [Xcode의 해당 Taget에서 Capability를 추가](https://developer.apple.com/documentation/Xcode/adding-capabilities-to-your-app)한다.
 
 ```swift
 // APP: 권한 요청하기
