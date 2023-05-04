@@ -2,15 +2,13 @@
 description: 현재 문서는 iOS15 기준 WWDC 영상을 보고 정리한 글이며, iOS16 에서 업데이트 된 내용은 What's new in Screen Time API 문서로 정리하겠습니다. Tublock 프로젝트를 진행하면서 ScreenTimeAPI를 사용한 App Blocking 기능을 구현하기 위해 공부해 보았습니다. 오역 및 오타 피드백 환영합니다. 😁
 ---
 
-# What's new in Screen Time API
+# Meet the Screen Time API
 
 # Screen Time API
 
 > 참고 자료 : [원본 영상](https://developer.apple.com/videos/play/wwdc2021/10123/) / [공식 문서](https://developer.apple.com/documentation/screentimeapidocumentation/)
 
-
 스크린 타임은 사용자와 가족이 앱과 웹사이트를 **얼마나 자주 사용하는지 추적**하고, **제한을 설정**하여 시간을 관리하고, 가족 구성원과 **사용량을 공유**하여 기기 사용 현황을 파악할 수 있으며, 마지막으로 **자녀가 누구와 소통하는지 등을 관리**할 수 있습니다.
-
 
 ## 📱 사용 환경
 
@@ -28,28 +26,31 @@ description: 현재 문서는 iOS15 기준 WWDC 영상을 보고 정리한 글�
 ![](https://velog.velcdn.com/images/debby_/post/60b016a6-b4be-40a0-9049-4c0b5cabf99a/image.png)
 
 ### ✨ 1) Managed Setting Framework(관리 설정)
+
 ![](https://velog.velcdn.com/images/debby_/post/04a8b335-f680-439c-8550-618114f13f4e/image.png)
 
 앱에서 스크린 타임에서 사용할 수 있는 제한 사항에 직접 액세스할 수 있다.
 
 - 제한 설정할 수 있는 것
-    - 계정 잠금
-    - 비밀번호 변경 방지
-    - 휍 트래픽 필터링
-    - 애플리케이션 차단
+  - 계정 잠금
+  - 비밀번호 변경 방지
+  - 휍 트래픽 필터링
+  - 애플리케이션 차단
 
 ### ✨ 2) Family Controls Framework(가족 제어)
+
 ![](https://velog.velcdn.com/images/debby_/post/aad14550-3f86-475f-bedc-659b620c45a3/image.png)
 
 가족 제어는 **트위터의 개인정보 보호정책을 주도**한다.
 가족 공유를 활용하여 보호자 승인 없이 스크린 타임 API에 액세스 할 수 없도록 한다.
 보호자의 승인을 받은 앱은 보호자 승인 없이 기기에서 제거할 수 없다.
-또한 앱과 웹 사이트를 나타내는 _**토큰**_을 제공하여 _**스크린 타임 API 전체에서 사용량을 모니터링하거나 제한**_하는 데 사용된다. (가족 그룹 외부에서는 볼 수 없도록 정보가 모두 보호된다.)
+또한 앱과 웹 사이트를 나타내는 ***토큰***을 제공하여 ***스크린 타임 API 전체에서 사용량을 모니터링하거나 제한***하는 데 사용된다. (가족 그룹 외부에서는 볼 수 없도록 정보가 모두 보호된다.)
 
 ### ✨ 3) Device Activity(디바이스 활동)
+
 ![](https://velog.velcdn.com/images/debby_/post/4a3d7b2c-98bf-4c9b-a3ea-a193c7d62cdc/image.png)
 
-디바이스 활동은 _**앱을 실행하지 않고도 코드를 실행할 수 있는 기능**_을 제공한다.
+디바이스 활동은 ***앱을 실행하지 않고도 코드를 실행할 수 있는 기능***을 제공한다.
 앱에 웹 & 앱 사용을 모니터링하고 필요할 때 코드를 실행할 수 있는 새로운 방법을 제공한다.
 디바이스 활동 일정과 이벤트
 
@@ -70,8 +71,8 @@ description: 현재 문서는 iOS15 기준 WWDC 영상을 보고 정리한 글�
 8. 확장 프로그램에서 관리 설정으로 제한 설정
 
 ## 📲 Demo App : Homework
-![](https://velog.velcdn.com/images/debby_/post/ab0e8b4f-c891-4584-ae71-cb3b17043e61/image.png)
 
+![](https://velog.velcdn.com/images/debby_/post/ab0e8b4f-c891-4584-ae71-cb3b17043e61/image.png)
 
 보호자가 원하는 다른 **`앱의 사용량이 누적될 때까지`** 특정 앱에 대한 자녀의 **`액세스를 제한`**하여 좋은 습관을 장려하는 것이 주 기능이다.
 
