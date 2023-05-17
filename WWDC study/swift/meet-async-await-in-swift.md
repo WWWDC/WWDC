@@ -26,7 +26,7 @@ func prpareThumbnail(of size CGSize, completionHandler: @escaping (UIImage?) -> 
 작업이 끝나면 completionHandler로 call 함
 비동기 작업이 끝나면 알려주는 방법은 completionHandler, delegate call backs가 있음
  
-##### Ex) 아이템 리스트가 있고 각 행에 사진의 썸네일을 보여줌(서버에 저장된)
+### Ex) 아이템 리스트가 있고 각 행에 사진의 썸네일을 보여줌(서버에 저장된)
 String을 UIImage로 변경하는 방법은 일련의 단계를 거침
 1.thumbnailURLRequest로 String → URLRequest
 2.URLSession’s dataTask로 request → data
@@ -101,7 +101,7 @@ image.prepareThumbnail(of: CGSize(width: 40, height: 40)) { thumnail in
 ```
 작업이 진행되는동안 thread는 다른 작업 수행 가능
 
-##### 여기 코드에는 문제가 있음
+### 여기 코드에는 문제가 있음
 guard else return 구문때문에 completion쓰는 걸 잊음 
 → FetchThumbnail의 호출자는 FetchThumbnail이 작업을 완료하면 실패하더라도 알림을 받음
 → 데이터에서 UIImage를 만들거나 Thumbnail 준비하는 데 실패하면 fetchThumbnail의 호출자에게 알림이 표시되지 않고 행이 업데이트 안됨, spinner만 계속 돌아감
@@ -165,7 +165,7 @@ func fetchThumbnail(for id: String, completion: @escaping (Result<UIImage?, Erro
 ```
 → 안전한 방법인 Result 타입을 넣어서 수정 하지만 코드가 못생기고 길어짐 
 
-##### Async/Await로 해보기
+### Async/Await로 해보기
 ```swift
 func fetchThumnail(for id: String) async throws -> UIImage {
     let request = thumbnailURLRequest(for: id)
@@ -241,7 +241,7 @@ for문에도 await 가능
 
 await 키워드는 비동기 함수가 일시 중단 될 수 있다는 것을 나타냄 
 
-##### 비동기 함수가 일시 중단된다는 것은 무엇을 의미하는지?
+### 비동기 함수가 일시 중단된다는 것은 무엇을 의미하는지?
 fetchThumbnail에서 thumbnailURLRequest 호출
 ![image](https://github.com/WWWDC/WWDC/assets/67883020/bf1299a1-e272-4d23-b4e1-d5ceb9d9a5ba)
 - 함수가 실행 중인 스레드를 해당 함수로 직접 제어
@@ -250,7 +250,7 @@ fetchThumbnail에서 thumbnailURLRequest 호출
 - 다시 제어 권한을 돌려줌
 → 일반적인 함수가 스레드 제어를 포기하는 유일한 방법
 
-##### async function는 스레드 제어를 포기할 수 있음 → 일시중단함
+### async function는 스레드 제어를 포기할 수 있음 → 일시중단함
 ![image](https://github.com/WWWDC/WWDC/assets/67883020/4618aec4-7800-43b3-8635-85f09896aae9)
 - 일반함수와 동일하게 함수를 호출하면 스레드 제어 가능
 - 실행되면 비동기 기능을 일시 중단될 수 있음 → 스레드 제어 포기
@@ -265,7 +265,7 @@ fetchThumbnail에서 thumbnailURLRequest 호출
 async 키워드가 있다고(비동기라고) 무조건 일시중단 하는 건 아님
 await 라고 함수가 거기서 일시중단 하는 것도 아님
 
-##### fetchThumbnail 함수로 일시중단 시 어떤 일이 일어나는지 다시 확인
+### fetchThumbnail 함수로 일시중단 시 어떤 일이 일어나는지 다시 확인
 ![image](https://github.com/WWWDC/WWDC/assets/67883020/032e10e2-51a9-4132-aa93-9e88313fa5de)
 - fetchThumbnail이 URLsession의 비동기 데이터 메서드를 호출하면 데이터 메서드는 일시 중단을 통해 비동기 함수만 수행할 수 있는 특수한 방법으로 스레드에서 실행을 중지
 - 스레드 제어를 시스템에 제공, URLSession data method에 작업을 예약하도록 시스템에 요청
@@ -278,7 +278,7 @@ await 라고 함수가 거기서 일시중단 하는 것도 아님
 - URLSession data method가 끝나면 다시 fetchThumbnail로 돌아감
 
 ## Conclusion
-##### Swift가 비동기 호출을 await 키워드로 표시해야 한다고 주장하는 이유는?
+### Swift가 비동기 호출을 await 키워드로 표시해야 한다고 주장하는 이유는?
 
 → 기능이 일시 중단된 상태에서 다른 작업을 수행할 수 있고 즉, 기능이 일시 중단 되면 앱 상태가 크게 변경될 수 있다는 점때문 
 completion handlers 마찬가지임
