@@ -13,6 +13,7 @@
   * [What's new in Screen Time API](business-and-education/whats-new-in-screen-time-api.md)
 * [Design](design.md)
 * [Developer Tools](developer-tools/README.md)
+  * [Testing in Xcode](developer-tools/testing-in-xcode.md)
   * [Meet TestFlight on Mac](developer-tools/meet-testflight-on-mac.md)
 * [Essentials](essentials.md)
 * [Graphics & Games](graphics-and-games.md)
