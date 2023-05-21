@@ -15,6 +15,7 @@
 * [Developer Tools](developer-tools/README.md)
   * [Testing in Xcode](developer-tools/testing-in-xcode.md)
   * [Meet TestFlight on Mac](developer-tools/meet-testflight-on-mac.md)
+  * [Advances in App Background Execution](developer-tools/advances-in-app-background-execution.md)
 * [Essentials](essentials.md)
 * [Graphics & Games](graphics-and-games.md)
 * [Health & Fitness](health-and-fitness.md)
