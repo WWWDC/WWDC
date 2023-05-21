@@ -36,3 +36,14 @@
 
 #### Week4
 
+
+
+
+
+#### week5
+
+
+
+[get-to-know-developer-mode.md](privacy-and-security/get-to-know-developer-mode.md "mention")
+
+[advances-in-app-background-execution.md](developer-tools/advances-in-app-background-execution.md "mention")
