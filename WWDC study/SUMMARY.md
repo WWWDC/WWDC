@@ -34,5 +34,6 @@
   * [Explore structured concurrency in Swift](swift/explore-structured-concurrency-in-swift.md)
   * [Meet async/await in Swift](swift/meet-async-await-in-swift.md)
   * [Meet Swift Regex](swift/meet-swift-regex.md)
-* [SwiftUI & UI Frameworks](swiftui-and-ui-frameworks.md)
+* [SwiftUI & UI Frameworks](swiftui-and-ui-frameworks/README.md)
+  * [Binary Frameworks in Swift](swiftui-and-ui-frameworks/binary-frameworks-in-swift.md)
 * [System Services](system-services.md)

@@ -42,8 +42,8 @@
 
 #### week5
 
-
-
 [get-to-know-developer-mode.md](privacy-and-security/get-to-know-developer-mode.md "mention")
 
 [advances-in-app-background-execution.md](developer-tools/advances-in-app-background-execution.md "mention")
+
+[binary-frameworks-in-swift.md](swiftui-and-ui-frameworks/binary-frameworks-in-swift.md "mention")
