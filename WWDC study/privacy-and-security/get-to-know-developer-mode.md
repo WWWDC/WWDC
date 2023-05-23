@@ -1,6 +1,5 @@
 # Get to know Developer Mode
 
----
 ## Introduction
 ### What is Developer Mode?
 - IOS16, WatchOS9에 개발자 워크플로를 지원하는 새로운 모드
